@@ -9,7 +9,7 @@ fun main() {
 
     repeat(3) { i ->
         while (true) {
-            print("Число ${i + 1}: ")
+            print("Number: ${i + 1}: ")
             val input = readln()
             val num = input?.toIntOrNull()
             if (num != null && num in 0..42) {
